@@ -341,6 +341,56 @@ nav a.active {
     text-underline-offset: 5px;
 }
 
+/* Project Footer */
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+/* Tech Stack */
+.project-footer .stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-footer .stack li {
+    font-size: 12px;
+}
+
+/* Project Platform Links */
+/* ===== Project Links ===== */
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: auto;
+    padding-top: 14px;
+}
+
+.project-links a {
+    margin-top: 0;
+    padding-top: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    font-size: 21px;
+    text-decoration: none;
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.project-links a:hover {
+    color: var(--accent);
+    transform: translateY(-3px);
+}
+
 /* ===== Project Mockup ===== */
 .shot {
     position: relative;
