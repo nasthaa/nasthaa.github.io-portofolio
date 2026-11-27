@@ -634,3 +634,22 @@ footer {
         background: rgba(30, 38, 64, .85);
     }
 }
+
+gti/* Pastikan li menggunakan flex agar sejajar vertikal */
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Luruskan ukuran ikon */
+ul li i {
+  width: 20px;
+  text-align: center;
+}
+
+/* Jika teks "Email:", "LinkedIn:" ada di a::before */
+ul li a::before {
+  display: inline-block;
+  width: 95px; /* Efek tabulasi: mengunci lebar area nama platform + titik dua */
+}
